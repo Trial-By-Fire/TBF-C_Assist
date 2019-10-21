@@ -40,7 +40,7 @@ enum ExecFlags_Def
 	ExecFlag_Sucess = 0,
 };
 
-alias(enum ExecFlags_Def) ExecFlags;
+alias(enum ExecFlags_Def) as ExecFlags;
 
 //An alias to the return type used for the entry point function of C/C++.
 #define ResultCode \
